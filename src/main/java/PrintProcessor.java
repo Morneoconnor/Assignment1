@@ -11,6 +11,7 @@ public class PrintProcessor
         System.out.println("Please enter the year you were born ");
         String year = scan.nextLine();
         System.out.println(CalcAge(Integer.parseInt(year)));
+        System.out.println(CalcAge(Integer.parseInt(Month)));
 
         scan.next();
     }
