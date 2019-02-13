@@ -17,8 +17,8 @@ public class PrintProcessor
     public int CalcAge(int year)
     {
         int currentYear = Calendar.getInstance().get(Calendar.YEAR);
-        int age = currentYear - year;
 
+        int age = currentYear - year;
         return age;
     }
 }
