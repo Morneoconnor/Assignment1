@@ -12,14 +12,15 @@ public class PrintProcessor
         System.out.println("This is dean");
         String year = scan.nextLine();
         System.out.println(CalcAge(Integer.parseInt(year)));
+        System.out.println(CalcAge(Integer.parseInt(Month)));
 
         scan.next();
     }
     public int CalcAge(int year)
     {
         int currentYear = Calendar.getInstance().get(Calendar.YEAR);
-        int age = currentYear - year;
 
+        int age = currentYear - year;
         return age;
     }
 }
