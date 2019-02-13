@@ -9,6 +9,7 @@ public class PrintProcessor
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Please enter the year you were born ");
+        System.out.println("This is dean");
         String year = scan.nextLine();
         System.out.println(CalcAge(Integer.parseInt(year)));
         System.out.println(CalcAge(Integer.parseInt(Month)));
